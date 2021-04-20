@@ -1,9 +1,0 @@
-package Baekjoon;
-
-public class Main {
-public static void main(String[] args) {
-		for (i=0, range(0, 9), i++) {
-			System.out.println(i);
-		}
-	}
-}
