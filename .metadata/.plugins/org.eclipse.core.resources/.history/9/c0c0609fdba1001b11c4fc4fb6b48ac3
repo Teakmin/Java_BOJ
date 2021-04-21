@@ -1,0 +1,26 @@
+package Baekjoon;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main( String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int A = sc.nextInt();
+		int d = -1;
+		int i = 0;
+		
+		while (d==A) {
+			int x = A/10;
+			int y = A%10;
+			
+			int c = x + y;
+			
+			d = c %10;
+			
+			int NewNum = (y*10) + d;
+			i++;
+		}System.out.println(i);
+	}
+}
