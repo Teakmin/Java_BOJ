@@ -1,0 +1,24 @@
+package Baekjoon;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class baekjoon2577 {
+
+   public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int i = 0;
+      int d = 0;
+      int location = 0;
+      ArrayList Nums = new ArrayList();
+      while (i < 9) {
+         int x = sc.nextInt();
+         Nums.add(x);
+         if (x > d) {
+            d = x;
+            location = i+1;
+         }i++;
+      }System.out.println(d);
+       System.out.println(location);
+   }
+   }
