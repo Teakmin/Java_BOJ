@@ -1,0 +1,18 @@
+package Baekjoon;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class baekjoon2577 {
+
+   public static void main(String[] args) {
+     
+	   Scanner sc = new Scanner(System.in);
+	   String[] a = new String[3];
+	   a[0] = "b"
+	   a[1] = "a"
+	   a[2] = "e"
+	   int ascii = a[0];
+   
+   }
+   }
