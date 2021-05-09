@@ -15,8 +15,8 @@ public class Main {
 				for (int j=0; j < R; j++) {
 					System.out.print(S.charAt(i));
 				}
-				
-			}System.out.println();
+				System.out.println();
+			}
 			t++;
 		}
 	}
