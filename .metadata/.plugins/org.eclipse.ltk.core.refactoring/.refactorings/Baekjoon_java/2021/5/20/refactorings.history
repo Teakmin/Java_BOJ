@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Baekjoon.baekjoon1152ongoing&apos; to &apos;baekjoon1152&apos;&#x0D;&#x0A;- Original project: &apos;Baekjoon_java&apos;&#x0D;&#x0A;- Original element: &apos;Baekjoon.baekjoon1152ongoing&apos;&#x0D;&#x0A;- Renamed element: &apos;Baekjoon.baekjoon1152&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;baekjoon1152ongoing&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Baekjoon{baekjoon1152ongoing.java[baekjoon1152ongoing" matchStrategy="1" name="baekjoon1152" qualified="false" references="true" similarDeclarations="false" stamp="1620738966004" textual="false" version="1.0"/>
+</session>
