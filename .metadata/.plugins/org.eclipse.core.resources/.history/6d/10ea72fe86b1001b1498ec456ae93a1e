@@ -11,8 +11,7 @@ public class Main {
       S = S.toLowerCase();
       char[] Alpha = new char[S.length()];
       int[] count = new int[26];
-      int[] arr = new int[26];
-
+      int[] Bcount= new int[26];
       
       for (int i =0; i < S.length(); i++) {
          Alpha[i] = S.charAt(i);                           //Alpha에 char로 넣기
@@ -20,10 +19,19 @@ public class Main {
       for (int i=0; i < S.length(); i++) {
          count[(int)Alpha[i]-97]++;
       }
-      
-      int max = 0;
-      for (int i=0; )
+      for (int i=0; i < count.length; i++) {
+    	  Bcount[i] = count[i];
       }
+      for (int i=0; i<count.length; i++) {
+         for(int j=0; j<count.length; j++) {
+            if(count[i] > count[j]) {
+               int a = count[i];
+               count[i] = count[j];
+               count[j] = a;
+            } 
+         }
+      }
+      int location = Bcount.indexOf(count[0]);
       if (count[0]==count[1]) {
     	  System.out.println("?");
       }else {
