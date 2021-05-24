@@ -1,8 +1,8 @@
 package Baekjoon;
 
-import java.util.Scanner;
+import java.util.Scanner;                   // 잘 나오는 것 같은데 채점해보면 틀림, 뭐가 문제인지 잘 모르겠음
 
-public class Main {
+public class baekjoon2292problem {
 
    public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);

@@ -18,7 +18,6 @@ public class Main {
     			  System.out.println(number + (6 * i));
     			  break;
     		  }
-    		  number = number + (6 * i);
     	  }
       }
   }

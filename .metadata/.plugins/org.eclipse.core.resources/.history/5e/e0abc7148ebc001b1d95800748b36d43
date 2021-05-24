@@ -15,10 +15,8 @@ public class Main {
     	  for (int i = 1; i < N; i++) {
     		  if (N < number + (6 * i)) {
     			  System.out.println(i + 1);
-    			  System.out.println(number + (6 * i));
     			  break;
     		  }
-    		  number = number + (6 * i);
     	  }
       }
   }
